@@ -19,9 +19,8 @@
 }
 
 .header__logo {
-    width: 200px;
     margin-left: 25px;
-
+    max-width: 70%;
     @include media($breakpoint-medium) {
         margin-left: 40px;
     }

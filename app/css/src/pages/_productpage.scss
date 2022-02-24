@@ -1,0 +1,38 @@
+.crumbs {
+    font-size: 10px;
+    margin-bottom: 10px;
+    @include media($breakpoint-medium) {
+        margin-bottom: 20px;
+    }
+}
+
+.productpage {
+    @extend .container;
+}
+
+.productpage_inner {
+    @include media($breakpoint-medium) {
+        display: flex;
+    }
+}
+
+.productpage_inner-left {
+    margin-bottom: 20px;
+    @include media($breakpoint-medium) {
+        margin-bottom: 0;
+        padding-right: 20px;
+    }
+}
+
+.productpage_inner-right {
+    @include media($breakpoint-medium) {
+        padding-left: 20px;
+    }
+}
+
+.productpage_title- {
+    display: none;
+    @include media($breakpoint-medium) {
+        display: block;
+    }
+}

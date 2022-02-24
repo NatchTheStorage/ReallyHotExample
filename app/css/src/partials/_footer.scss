@@ -1,8 +1,19 @@
 .footer {
+    padding: 20px;
     border-top: 1px solid $color-medium-gray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+
+    .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include media($breakpoint-large) {
+            margin: auto;
+            max-width: 1200px;
+        }
+    }
+
 }
 
 .footer__note {

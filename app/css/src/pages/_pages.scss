@@ -1,1 +1,16 @@
 @import "page";
+@import "_productpage";
+
+.mobile {
+    display: block;
+    @include media($breakpoint-medium) {
+        display: none;
+    }
+}
+
+.desktop {
+    display: none;
+    @include media($breakpoint-medium) {
+        display: block;
+    }
+}

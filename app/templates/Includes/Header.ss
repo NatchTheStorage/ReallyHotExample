@@ -1,7 +1,7 @@
 <header class="header">
     <div class="header__container">
         <a href="/" class="header__logo">
-            <img src="$ThemeDir/images/logo.svg" alt="Black Sheep Creative">
+            <h1>The Really Hot OnFire Test Code!</h1>
         </a>
         <button class="header__hamburger hamburger hamburger--3dxy" type="button">
         <span class="hamburger-box">
