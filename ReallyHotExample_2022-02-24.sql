@@ -352,7 +352,7 @@ LOCK TABLES `File` WRITE;
 INSERT INTO `File` (`ID`, `ClassName`, `LastEdited`, `Created`, `Version`, `CanViewType`, `CanEditType`, `Name`, `Title`, `ShowInSearch`, `ParentID`, `OwnerID`, `FileHash`, `FileFilename`, `FileVariant`)
 VALUES
 	(1,'SilverStripe\\Assets\\Folder','2022-02-23 07:24:13','2022-02-23 07:24:13',2,'Inherit','Inherit','Uploads','Uploads',1,0,1,NULL,NULL,NULL),
-	(2,'SilverStripe\\Assets\\Image','2022-02-23 07:37:24','2022-02-23 07:37:21',2,'Inherit','Inherit','Stellaris-The-Shroud-1.jpeg','Stellaris The Shroud 1',1,1,1,'23f59d2b7e7c981bcd7d4bd4c0a97282fc5d591f','Uploads/Stellaris-The-Shroud-1.jpeg',NULL);
+	(2,'SilverStripe\\Assets\\Image','2022-02-23 07:37:24','2022-02-23 07:37:21',2,'Inherit','Inherit','placeholder.jpeg','Stellaris The Shroud 1',1,1,1,'23f59d2b7e7c981bcd7d4bd4c0a97282fc5d591f','Uploads/placeholder.jpeg',NULL);
 
 /*!40000 ALTER TABLE `File` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -409,7 +409,7 @@ LOCK TABLES `File_Live` WRITE;
 INSERT INTO `File_Live` (`ID`, `ClassName`, `LastEdited`, `Created`, `Version`, `CanViewType`, `CanEditType`, `Name`, `Title`, `ShowInSearch`, `ParentID`, `OwnerID`, `FileHash`, `FileFilename`, `FileVariant`)
 VALUES
 	(1,'SilverStripe\\Assets\\Folder','2022-02-23 07:24:13','2022-02-23 07:24:13',2,'Inherit','Inherit','Uploads','Uploads',1,0,1,NULL,NULL,NULL),
-	(2,'SilverStripe\\Assets\\Image','2022-02-23 07:37:24','2022-02-23 07:37:21',2,'Inherit','Inherit','Stellaris-The-Shroud-1.jpeg','Stellaris The Shroud 1',1,1,1,'23f59d2b7e7c981bcd7d4bd4c0a97282fc5d591f','Uploads/Stellaris-The-Shroud-1.jpeg',NULL);
+	(2,'SilverStripe\\Assets\\Image','2022-02-23 07:37:24','2022-02-23 07:37:21',2,'Inherit','Inherit','placeholder.jpeg','Stellaris The Shroud 1',1,1,1,'23f59d2b7e7c981bcd7d4bd4c0a97282fc5d591f','Uploads/placeholder.jpeg',NULL);
 
 /*!40000 ALTER TABLE `File_Live` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -462,8 +462,8 @@ INSERT INTO `File_Versions` (`ID`, `RecordID`, `Version`, `WasPublished`, `WasDe
 VALUES
 	(1,1,1,0,0,1,1,0,'SilverStripe\\Assets\\Folder','2022-02-23 07:24:13','2022-02-23 07:24:13','Inherit','Inherit','Uploads','Uploads',1,0,1,NULL,NULL,NULL),
 	(2,1,2,1,0,1,1,1,'SilverStripe\\Assets\\Folder','2022-02-23 07:24:13','2022-02-23 07:24:13','Inherit','Inherit','Uploads','Uploads',1,0,1,NULL,NULL,NULL),
-	(3,2,1,0,0,1,1,0,'SilverStripe\\Assets\\Image','2022-02-23 07:37:21','2022-02-23 07:37:21','Inherit','Inherit','Stellaris-The-Shroud-1.jpeg','Stellaris The Shroud 1',1,1,1,'23f59d2b7e7c981bcd7d4bd4c0a97282fc5d591f','Uploads/Stellaris-The-Shroud-1.jpeg',NULL),
-	(4,2,2,1,0,1,1,1,'SilverStripe\\Assets\\Image','2022-02-23 07:37:24','2022-02-23 07:37:21','Inherit','Inherit','Stellaris-The-Shroud-1.jpeg','Stellaris The Shroud 1',1,1,1,'23f59d2b7e7c981bcd7d4bd4c0a97282fc5d591f','Uploads/Stellaris-The-Shroud-1.jpeg',NULL);
+	(3,2,1,0,0,1,1,0,'SilverStripe\\Assets\\Image','2022-02-23 07:37:21','2022-02-23 07:37:21','Inherit','Inherit','placeholder.jpeg','Stellaris The Shroud 1',1,1,1,'23f59d2b7e7c981bcd7d4bd4c0a97282fc5d591f','Uploads/placeholder.jpeg',NULL),
+	(4,2,2,1,0,1,1,1,'SilverStripe\\Assets\\Image','2022-02-23 07:37:24','2022-02-23 07:37:21','Inherit','Inherit','placeholder.jpeg','Stellaris The Shroud 1',1,1,1,'23f59d2b7e7c981bcd7d4bd4c0a97282fc5d591f','Uploads/placeholder.jpeg',NULL);
 
 /*!40000 ALTER TABLE `File_Versions` ENABLE KEYS */;
 UNLOCK TABLES;
